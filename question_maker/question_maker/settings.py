@@ -27,7 +27,7 @@ SECRET_KEY = secrets.SECRET_KEY
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = production_settings.ALLOWED_HOSTS
 
 CORS_ALLOWED_ORIGINS = production_settings.CORS_ALLOWED_ORIGINS
 
